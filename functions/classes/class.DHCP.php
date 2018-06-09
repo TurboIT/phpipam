@@ -29,7 +29,7 @@ class DHCP extends Common_functions {
      * @var string
      * @access private
      */
-    private $dhcp_server_types = array("kea");
+    private $dhcp_server_types = array("vyos");
 
     /**
      * Selected DHCP server from $dhcp_server_types to use with phpipam.
